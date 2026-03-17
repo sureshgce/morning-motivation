@@ -1,0 +1,27 @@
+{
+    "github": {
+        "owner": "sureshgce",
+        "repo": "morning-motivation",
+        "branch": "main",
+        "image_path": "images",
+        "token": ""
+    },
+    "polling": {
+        "interval_seconds": 180,
+        "active_hours": {
+            "start": "06:00",
+            "end": "22:00"
+        }
+    },
+    "popup": {
+        "max_width": 600,
+        "max_height": 500,
+        "display_seconds": 30,
+        "opacity": 0.95,
+        "position": "bottom-right"
+    },
+    "storage": {
+        "image_cache_dir": "images",
+        "max_cache_days": 30
+    }
+}
